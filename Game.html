@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<!--
+This is a game page to satisfy Assignment 3.1: The Building Blocks of JavaScript - Functions
+Fabian Sherrill
+MAY 28th, 2024
+Fsherrill84129@uat.edu
+-->
+
+<head>
+    <title>
+        Game Page
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Main.css">
+    <script src="Code.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h2>Navigation</h2>
+        <h3>
+            <!--These tags link the index page as the home page and boards page as its own page. 
+            This makes it possible to go to each page at the navigation menu-->
+            <a href="index.html">Home</a><br>
+            <a href="Boards.html">Boards</a><br>
+            <a href="Strings.html">Input Validation</a><br>
+            <a href="Alltogether.html">Timer</a><br>
+        </h3>
+    </nav>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <header>
+        <h1>
+            Welcome To My Game Page
+        </h1>
+    </header>
+    <br><br>
+    <div id="RulesTitle">
+        <u>Rules</u> <!--This is the underline tag-->
+    </div>
+    <div id="RulesBody">
+        <ol> <!-- This is the ordered list tag that lets me use the list item tag (li)-->
+            <li>Roll two dice</li><!-- This is the list item tag-->
+            <li>Add up to <mark>7 or 11</mark>, you <mark>lose</mark></li><!-- the mark tag highlights words-->
+            <li>If they are <mark>double even</mark> you <mark>win</mark></li>
+            <li>Everything Else is a push</li>
+        </ol>
+    </div>
+    <br><br>
+    <h2>Play Craps Below</h2>
+    <br><br>
+    Die 1 Results: <div id="die1Res">Press Button To Start Game</div><br>
+    <!-- This is the division tag, it seperates this section with the die 1 result id-->
+    Die 2 Results: <div id="die2Res">Press Button To Start Game</div><br>
+    Sum Results: <div id="sumRes">Press Button To Start Game</div><br>
+    Game Results: <div id="gameRes">Press Button To Start Game</div><br><br>
+    <center><button onclick="PressToPlay();">Press To Play</button></center>
+    <!-- This button tag, places a button with a label on it-->
+    <br><br>
+    <center>
+        <p>Thank you for playing</p>
+    </center>
+    <br><br>
+    <br><br>
+    <br><br>
+    <footer>
+        Fabian Sherrill <br>
+        University of Advancing Technology <br>
+        2625 W Baseline Rd, <br>
+        Tempe, AZ 85283 <br>
+        (800)658-5744
+    </footer>
+</body>
+
+</html>

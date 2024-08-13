@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!-- Assignment 6.1 User Input Validation
+1. Allow User input of first and last names
+2. Make variable containing first name + space + last name
+3. Check how many characters greater than or equal to 20 present an error
+4. Less than 20 = good entry
+5. Check to see if zipcode is accurate
+6. Good name and zip give secret message
+7. Add creative like font, image etc. and comment on every line of code
+Fabian Sherrill
+June 6th, 2024
+fsherrill84129@uat.edu
+-->
+
+<head>
+    <title> Input Validation</title>
+    <link rel="stylesheet" type="text/css" href="Main.css">
+    <script src="Code.js"></script>
+</head>
+
+<body>
+    <h1>Input Validation</h1><br>
+    <nav>
+        <h2>Navigation</h2>
+        <h3>
+            <!--These tags link the index page as the home page and boards page as its own page. 
+            This makes it possible to go to each page at the navigation menu-->
+            <a href="index.html">Home</a><br>
+            <a href="Boards.html">Boards</a><br>
+            <a href="Game.html">Free Game</a><br>
+            <a href="Alltogether.html">Timer</a><br>
+        </h3>
+    </nav>
+    <header>
+        <h2 id="InputTitle">Input Validation Section</h2>
+    </header>
+    <div id="loginStatus">Press <Mark>Submit</Mark> to login</div>
+    <!--This div tag is the text that changes with the answer of valid credentials-->
+    <p id="InputBody">Please Submit the following data for validation</p>
+    <form id="creditSubmit" onsubmit="return false">
+        <!--This form is given the "creditSubmit" ID and returns back false if not done correctly-->
+        First Name: <input type="text" id="fName"><br> <!--This is the text box users can fill out with information-->
+        Last Name: <input type="text" id="lName"><br>
+        Zip Code:&ensp; <input type="number" id="zipCode"><br><br>
+        <!--The &nbsp; tag is one non break space, the &ensp; tag is two spaces, the &emsp; is four spaces-->
+        <input type="submit" onclick="checkCreds()">
+        <!--This is the submit button that starts the check/creds function-->
+    </form>
+    <br><br>
+    <!--
+    Is zip code <a id="zipCodeDisp"></a> valid? <div id="zipTest"></div>
+    <script>
+        var zipCode = "85395";
+        var isValidZip = /(^\d{5}$)|(^\d{5}-\d{4}$)/.test(zipCode);
+        document.getElementById("zipTest").innerHTML = isValidZip;
+        document.getElementById("zipCodeDisp").innerHTML = zipCode;
+    </script>
+    -->
+
+    <!--
+Assignment 9.1 Palindrome checker
+1. Make a place to submit word for checking
+2. Add button to submit word for checking to palindrome checking function (checkPalin())
+3. Return whether or not it is a palindrome or not
+4. Add 2 elements of style
+Fabian Sherrill
+June 25th, 2024
+fsherrill84129@uat.edu
+-->
+    <br>
+    <h2 id="palinTitle">Palindrome Checker</h2><br>
+    <div id="palinBody"><br>
+        <div id="palinStatus">Palindrome Status</div> <!--This div tag changes text with answer-->
+        <br>
+        <form id="palinSubmit" onsubmit="return false"> <!--This is the form tag given the ID palinSubmit and returns false if wrong-->
+            <!--The form tag is given an ID and instructions to return false if not working-->
+            Enter Possible Palindrome: <input type="text" id="palinInput"><br><br>
+            <!--This gives user a text box to try different words-->
+            <input type="submit" onclick="checkPalin();">
+            <!--This is the submit button that starts the checkPalin function-->
+        </form>
+    </div>
+</body>
+
+</html>
