@@ -1,0 +1,238 @@
+/*This is the styling for both of the body and paragraph properties.*/
+/*The background color was changed to black and the text color was changed to greenyellow.*/
+body,
+p {
+    text-align:
+        center;
+    background-color:
+        black;
+    color:
+        greenyellow;
+}
+
+/*This is the styling for the navigation menu
+The height, width, float, padding, and line height were all adjusted.*/
+nav {
+    height:
+        100px;
+    width:
+        100px;
+    float:
+        left;
+    padding-left:
+        5px;
+    line-height:
+        30px;
+}
+
+/*This is the styling for the footer.*/
+/*The text alignment, font size, and margin right were each changed for the footer.*/
+footer {
+    text-align:
+        center;
+    font-size:
+        12px;
+    margin-right:
+        10px;
+    padding-bottom:
+        1000px;
+}
+
+/*This is the styling for the ID labeled: meme.*/
+#Meme {
+    margin-right:
+        500px;
+    height:
+        auto;
+    width:
+        500px;
+}
+
+/*This is the styling for the header.*/
+header {
+    text-align:
+        center;
+}
+
+/*This changes the alignment to the center, the background color to green, border radius to make more round and border color to yellow green*/
+.startButton {
+    text-align:
+        center;
+    background-color:
+        green;
+    width:
+        200px;
+    height:
+        30px;
+    border-radius:
+        10px;
+    border-color:
+        yellowgreen;
+}
+
+/*This changes the alignment to the center, the background color to dark red, border radius to make more round and border color to red*/
+.stopButton {
+    background-color:
+        darkred;
+    width:
+        200px;
+    height:
+        30px;
+    border-radius:
+        10px;
+    border-color:
+        red;
+}
+
+/*This keeps the words from interferring with the navigation by changing padding and text alignment*/
+#BoardsObjectives {
+    padding-left:
+        150px;
+    padding-right:
+        100px;
+    text-align:
+        left;
+}
+
+
+#InputTitle {
+    text-align:
+        left;
+    padding-left:
+        475px;
+}
+
+#loginStatus {
+    text-align:
+        left;
+    padding-left:
+        475px;
+}
+
+#InputBody {
+    text-align:
+        left;
+    padding-left:
+        475px;
+}
+
+
+#RulesTitle {
+    text-align:
+        center;
+}
+
+#RulesBody {
+    text-align:
+        left;
+    padding-left:
+        500px;
+}
+
+/*This makes the palinTitle to have rainbow shadows*/
+#palinTitle {
+    text-align:
+        center;
+    margin-top:
+        0px;
+    margin-bottom:
+        50px;
+    font-family:
+        sans-serif;
+    font-size:
+        3rem;
+    letter-spacing:
+        0.15rem;
+    text-transform:
+        uppercase;
+    color:
+        #fff;
+    text-shadow:
+        -4px 4px #ef3550,
+        -8px 8px #f48fb1,
+        -12px 12px #7e57c2,
+        -16px 16px #2196f3,
+        -20px 20px #26c6da,
+        -24px 24px #43a047,
+        -28px 28px #eeff41,
+        -32px 32px #f9a825,
+        -34px 34px #ff5722;
+}
+
+#palinBody {
+    text-align:
+        left;
+    padding-left:
+        500px;
+}
+
+/*This makes the palindrome status in an italic font*/
+#palinStatus {
+    font-style:
+        italic;
+}
+
+/*This makes the marquee not go over my navigation or across the entire screen*/
+#myMarquee {
+    margin-right:
+        225px;
+    margin-left:
+        250px;
+}
+
+/*This makes the image smaller and fit the screen*/
+#UML {
+    height:
+        auto;
+    width:
+        400px;
+}
+
+/*The text above the table with the id "Tabletext" changes the font to orange*/
+#Tabletext {
+    color:
+        orange;
+}
+
+/*This is styling the "table", "th (table header)", and "td (table data)" to have a 
+border 1 pixel solid and an orange red color to it.*/
+table,
+th,
+td {
+    border:
+        1px solid;
+    border-color:
+        orangered;
+}
+
+/*This styles the table heading data and table data text color to be changed to the color black.*/
+th,
+td {
+    color:
+        black;
+}
+
+/*This makes the image smaller and adjusted to the page better*/
+#robot {
+    height:
+        auto;
+    width:
+        600px;
+}
+
+/*This styles the h1 header on AllTogether final page*/
+#finalPgH1 {
+    text-align:
+        center;
+    padding-left:
+        100px;
+}
+/*This styles the h3 header on the AllTogether final page*/
+#finalPgH3 {
+    text-align:
+        center;
+    padding-left:
+        150px;
+    padding-right:
+        30px;
+}
